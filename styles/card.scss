@@ -1,0 +1,25 @@
+.card {
+	width: 80%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(97, 93, 93, 0.869);
+	border: 1px black solid;
+	font-family: "Helvetica Neue";
+}
+
+.card img {
+	height: 500px;
+	width: auto;
+}
+
+.card-content {
+	padding: 2px 16px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.card-content-info {
+	color: black;
+	text-align: center;
+}
