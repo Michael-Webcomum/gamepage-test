@@ -30,7 +30,7 @@ function Games({ game }) {
   }
 
   return (
-    <BuilderComponent
+    <BuilderContent
       content={game}
       options={{ includeRefs: true }}
       model="game-data"
@@ -54,7 +54,7 @@ function Games({ game }) {
           </div>
         </>
       )}
-    </BuilderComponent>
+    </BuilderContent>
   );
 }
 

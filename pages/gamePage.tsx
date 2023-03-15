@@ -26,7 +26,7 @@ function gamePage({ games }) {
 export async function getStaticProps({ query }) {
   const games = await builder.getAll('game-data', {
     options: { includeRefs: true },
-    omit: 'data-blocks',
+    omit: 'data.blocks',
     limit: gamesPerPage,
   });
 
